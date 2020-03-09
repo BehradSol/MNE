@@ -16,7 +16,7 @@ Contens:
 
 > MNE.m:                     Minimum norm estimation function.
 
-> MinimumNormEstimation.pdf: Derivation and details of the MNE.
+> MNEdrivation.pdf:          Derivation and details of the MNE.
 
 Instructions: Simple and easy. Download all the codes in a directory and run main.m, that will generate one example described below. To use the function individually, please look at the function descriptions.
 
