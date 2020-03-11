@@ -3,25 +3,25 @@ clear
 close all
 
 
-T = 50;
+T = 100;
 Ny = 2;
-Nx = 2;
+Nx =  3;
 
-R = eye(Ny);
+R = 0.1*eye(Ny);
 C = rand(Ny , Nx);
-X = 100*rand(Nx,T);
+X = 10*rand(Nx,T);
 Y = C*X + mvnrnd(zeros(1,Ny),R,T)';
+eta = 1;
 
+[ Xhat ] = MNE(Y, C, R, eta);
 
-[ Xhat ] = MNE(Y, C, R, 1);
-
-
-plot(X(1,:))
+for i = 1 : Nx
+subplot(Nx,1,i)    
+plot(X(i,:),'-black')
 hold on
-plot(Xhat(1,:))
+plot(Xhat(i,:),'-red')
+end
 
-figure
 
-plot(X(2,:))
-hold on
-plot(Xhat(2,:))
+
+
