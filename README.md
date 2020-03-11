@@ -18,6 +18,6 @@ Contens:
 
 > MNEdrivation.pdf:          Derivations and details of the MNE.
 
-Instructions: Simple and easy. Download all the codes in a directory and run main.m, that will generate an example. To use the function individually, please look at the function descriptions. The derivations and details also explained in .pdf file.
+Instructions: Simple and easy. Download all the codes in a directory and run main.m, that will generate an example. To use the function individually, please look at the function descriptions. The derivations and details are also explained in .pdf file.
 
 
