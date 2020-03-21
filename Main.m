@@ -1,3 +1,7 @@
+%% This file is distributed under BSD (simplified) license
+%% Author: Behrad Soleimani <behrad@umd.edu>
+
+
 clc
 clear 
 close all
@@ -16,12 +20,15 @@ eta = 1;
 [ Xhat ] = MNE(Y, C, R, eta);
 
 for i = 1 : Nx
-subplot(Nx,1,i)    
-plot(X(i,:),'-black')
-hold on
-plot(Xhat(i,:),'-red')
+    subplot(Nx,1,i)    
+    plot(X(i,:),'-black')
+    hold on
+    plot(Xhat(i,:),'-red')
+    legend('Ground truth','MNE')
+    ylabel(strcat('Source #' , num2str(i)))
 end
 
+xlabel('Time')
 
 
 
