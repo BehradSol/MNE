@@ -11,7 +11,7 @@ Date: March 9, 2020
 
 Requirements: implemented in Matlab R2019a version, but should run on most versions.
 
-Contens: 
+Contents: 
 > main.m:                    Master script. 
 
 > MNE.m:                     Minimum norm estimation function.
