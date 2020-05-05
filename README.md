@@ -27,7 +27,7 @@ We consider the following observation model
 <p align="center">
   <img src="https://user-images.githubusercontent.com/59627073/81076985-60f5bc80-8eba-11ea-9867-71fe9c2bec26.jpg">
 </p>
-where x<sub>t</sub> and y<sub>t</sub> represent the observation and source vectors at t-th time sample, respectively. The minimum norm estimation (MNE) is given as
+where **x**<sub>*t*</sub> and y<sub>t</sub> represent the observation and source vectors at t-th time sample, respectively. The minimum norm estimation (MNE) is given as
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/59627073/81077822-791a0b80-8ebb-11ea-84c5-d8b27aeed62f.jpg">
