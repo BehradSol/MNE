@@ -37,6 +37,6 @@ where *λ* is the regulariation coefficient and can be obtained iteratively.
 
 In this example, we assume that there are N<sub>x</sub>=5 sources and T=50 time samples. The MNE solution for two cases (low and full -rank) is depicted in Fig. 1. 
 
-| ![](Figs/MNE.png) | 
+| ![](Figs/MNE.png) |  
 |:--:| 
 | Fig 1. The MNE solution for two cases N<sub>y</sub>=3 and 5 observations |
